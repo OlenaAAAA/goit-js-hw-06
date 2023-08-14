@@ -9,8 +9,8 @@ const textEl = document.querySelector(".color");
 const bodyEl = document.querySelector("body");
 
 const showColorName = () => {
-  textEl.textContent = getRandomHexColor();
-  bodyEl.style.backgroundColor = getRandomHexColor();
+  textEl.textContent = bodyEl.style.backgroundColor = getRandomHexColor();
+  
 };
 
 
